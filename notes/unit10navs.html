@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: lightblue;
+            padding: 10px;
+            font-family: verdana, sans-serif;
+            display: flex;
+        }
+        nav div {
+            padding: 5px;
+            display: flex;
+        }
+        .flexend {
+            justify-content: flex-end;
+        }
+        .flexspacearound {
+            justify-content: space-around;
+        }
+        .flexspacebetween {
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navigation</h1>
+
+    <h2>flex end</h2>
+    <nav class="flex-end">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+    <h2>split navigation</h2>
+    <nav class="splitnavigation">
+        <div>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Products</div>
+            <div>Contact</div>
+        </div>
+    </nav>
+    <h2>flex space between</h2>
+    <nav class="flexspacebetween">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+</body>
+</html>
