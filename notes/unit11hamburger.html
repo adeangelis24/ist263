@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <!--
+    1. large - no hamburger
+    2. small - show hamburger
+    3. larger - no X
+    4. small - show X
+    5. larger - links should be side by side
+    6. small - links should be stacked 
+    -->
+
+<style>
+    #hamburger {width: 40px;}
+    @media only screen and (min-width: 900px) {
+        nav {display: block;}
+        #hamburger, #close {display: none;}
+    }
+</style>
+</head>
+<body>
+    <div>
+        <img src="http://laferger.github.io/ist263/images/hamburger.PNG" alt="hamburger icon">
+    </div>
+    <nav>
+        <a href="">About</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a>
+    </nav>
+</body>
+</html>
